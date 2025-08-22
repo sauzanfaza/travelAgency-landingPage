@@ -23,16 +23,16 @@ return (
             </div>
         </nav>        
     </header>
-    <nav className="w-full bg-white mt-26">
+    <nav className="w-full bg-white mt-26 mb-3">
     <div className="flex items-center justify-center text-black gap-6 text-sm font-semibold">
-        <a href="">Home</a>
-        <a href="">Tour</a>
-        <a href="">About Us</a>
-        <a href="">Dicover</a>
-        <a href="">Events</a>
-        <a href="">Rewards</a>
-        <a href="">Travel Blog</a>
-        <a href="">Contact Us</a>
+        <a href="" className="hover:text-[#04356A]">Home</a>
+        <a href="" className="hover:text-[#04356A]">Tour</a>
+        <a href="" className="hover:text-[#04356A]">About Us</a>
+        <a href="" className="hover:text-[#04356A]">Dicover</a>
+        <a href="" className="hover:text-[#04356A]">Events</a>
+        <a href="" className="hover:text-[#04356A]">Rewards</a>
+        <a href="" className="hover:text-[#04356A]">Travel Blog</a>
+        <a href="" className="hover:text-[#04356A]">Contact Us</a>
     </div>
 </nav>
 </>
