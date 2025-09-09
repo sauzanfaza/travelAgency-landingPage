@@ -5,8 +5,8 @@ import { IoMdSearch } from "react-icons/io";
 export default function Navbar() {
 return (
     <>
-    <header className="w-full fixed top-0 z-50 p-4 px-20 flex items-center justify-between bg-[#04356A] text-white">
-        <div className="flex items-center pl-4 font-bold text-lg">
+    <header className="w-full fixed top-0 z-50 py-2 px-10 flex items-center justify-between bg-[#04356A] text-white">
+        <div className="flex items-center pl-4 font-bold text-md">
         TRAVEL AGENCY
         </div>
 
@@ -23,7 +23,7 @@ return (
             </div>
         </nav>        
     </header>
-    <nav className="w-full bg-white mt-26 mb-3">
+    <nav className="w-full bg-white mt-22 mb-3">
     <div className="flex items-center justify-center text-black gap-6 text-sm font-semibold">
         <a href="" className="hover:text-[#04356A]">Home</a>
         <a href="" className="hover:text-[#04356A]">Tour</a>
