@@ -17,6 +17,7 @@ export default function Testimonials() {
                 {testimoni.map((item) => (
                 <div
                     key={item.id}
+                    data-aos="zoom-in"
                     className="flex flex-col items-center justify-center">
                     <div className="flex items-center mb-4 text-lg">
                     <FaQuoteLeft />

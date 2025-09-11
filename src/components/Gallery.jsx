@@ -10,7 +10,7 @@ export default function Gallery() {
 
     return (
         <div>
-            <section className="px-20 py-10 bg-gray-100">
+            <section className="px-14 py-10 bg-gray-100">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl font-bold">POPULAR TOUR PACKAGES</h2>
                     <p className="text-gray-600 mt-2">Discover the most engaging tours</p>
