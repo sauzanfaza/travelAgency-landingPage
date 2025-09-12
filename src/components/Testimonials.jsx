@@ -8,12 +8,12 @@ export default function Testimonials() {
     ]
 
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-center text-center">
+        <div className="w-full min-h-screen flex flex-col items-center justify-center text-center pb-8">
             <div className="my-8">
                 <h1 className="text-lg mb-1">TESTIMONIALS</h1>
                 <p className="text-sm text-slate-600">WHAT OUR CUSTOMERS SAY ABOUT</p>
             </div>
-            <div className="grid grid-cols-3 gap-6 mt-4 px-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-2 md:mt-4 px-10">
                 {testimoni.map((item) => (
                 <div
                     key={item.id}

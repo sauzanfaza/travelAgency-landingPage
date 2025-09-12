@@ -9,7 +9,7 @@ export default function Footer() {
     return(
         <footer className="w-full bg-[#04356A] text-white py-6 px-10 flex flex-col md:flex-row items-center justify-between">
             <div className="mb-4 md:mb-0">
-                <h1 className="font-bold text-lg">TRAVEL AGENCY</h1>
+                <h1 className="font-bold text-lg text-center md:text-start">TRAVEL AGENCY</h1>
                 <p className="text-sm">© 2024 Travel Agency. All rights reserved.</p>
             </div>
             <div className="flex flex-col gap-4">

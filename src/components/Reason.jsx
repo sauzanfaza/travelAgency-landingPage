@@ -21,13 +21,14 @@ export default function Reason() {
             </div>
 
             <div
-                className="relative flex flex-col min-h-screen items-center justify-center text-center text-white">
+                className="relative flex flex-col min-h-screen items-center justify-center text-center pt-4 text-white">
                 <h1 className="text-lg md:text-xl font-bold">WHY CHOOSE US?</h1>
                 <h2 className="text-sm mt-1">A BRAND NAME YOU CAN TRUST AND RELY ON</h2>
                 <div 
-                    data-aos="fade-up"
-                    className="grid grid-cols-3 gap-6 mt-6 px-6">
-                    <div className="flex flex-col items-center justify-center p-4">
+                    className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-6 mt-2 md:mt-6 px-4 pb-4">
+                    <div
+                        data-aos="fade-up" 
+                        className="flex flex-col items-center justify-center p-4">
                         <div className="bg-slate-100 rounded-full w-15 h-15 mb-2 flex items-center justify-center text-3xl text-amber-400">
                         <FaSuitcase />
                         </div>
@@ -36,7 +37,9 @@ export default function Reason() {
                             <p className="text-[11px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo amet id. Excepturi provident consectetur molestiae dolor id, officia minima!</p>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center p-4">
+                    <div
+                        data-aos="fade-up"
+                        className="flex flex-col items-center justify-center p-4">
                         <div className="bg-slate-100 rounded-full w-15 h-15 mb-2 flex items-center justify-center text-3xl text-amber-400">
                         <LiaGlobeSolid />
                         </div>
@@ -45,12 +48,14 @@ export default function Reason() {
                             <p className="text-[11px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo amet id. Excepturi provident consectetur molestiae dolor id, officia minima!</p>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center p-4">
+                    <div 
+                        data-aos="fade-up"
+                        className="flex flex-col items-center justify-center p-4">
                         <div className="bg-slate-100 rounded-full w-15 h-15 mb-2 flex items-center justify-center text-3xl text-amber-400">
                         <BiSolidLike />
                         </div>
                         <div className="flex flex-col items-center justify-center text-center text-white">
-                            <h1 className="font-semibold">HIGHLY QUALIFIED SERVICE FOR YOU</h1>
+                            <h1 className="font-semibold">HIGHLY QUALIFIED SERVICE</h1>
                             <p className="text-[11px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo amet id. Excepturi provident consectetur molestiae dolor id, officia minima!</p>
                         </div>
                     </div>
